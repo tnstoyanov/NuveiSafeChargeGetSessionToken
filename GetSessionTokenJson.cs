@@ -11,11 +11,11 @@ namespace SafeChargeRest
         private static void Main(string[] args)
         {
 
-            string merchantId = "4914223691328304580";
-            string merchantSiteId = "193578";
+            string merchantId = "3832456837996201334";
+            string merchantSiteId = "184063";
             string clientRequestId = DateTime.Now.ToString("hhmmddMMyy");
             string timeStamp = DateTime.Now.ToString("yyyyMMddHHmmss");
-            string merchantSecretKey = "e9npgVP9Ot6CEAOu7i3JoVIJcFuZRyl8OOfqaQF675vxtNRXaODVRnngpmaSxdqH";
+            string merchantSecretKey = "puT8KQYqIbbQDHN5cQNAlYyuDedZxRYjA9WmEsKq1wrIPhxQqOx77Ep1uOA7sUde";
             string checksum = ComputeSha256Hash(
                 merchantId
                 + merchantSiteId
